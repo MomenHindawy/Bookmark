@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #f7ecde;
+}
+
+.main-title {
+    position: relative;
+
+    h1 {
+        font-size: 50px;
+        font-family: "Pacifico", cursive;
+        font-weight: 100;
+        font-style: normal;
+
+    }
+
+    .line {
+        width: 24%;
+        height: 20px;
+        background-color: #ff740371;
+        position: absolute;
+        bottom: 21px;
+        left: 38%;
+        z-index: -1;
+        transition: all .3s;
+    }
+
+}
+
+#modal {
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.visit {
+
+    a {
+        text-decoration: none;
+        color: #fff;
+
+    }
+}
+
+.main-title:hover .line {
+    height: 37px;
+}
+
+.Bookmark {
+
+
+
+    background: linear-gradient(to right,
+            green,
+            orange,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.form-info {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+
+    button {
+        width: 15%;
+    }
+
+    label {
+        font-weight: 700;
+    }
+}
+
+.tab {
+    .index {
+        padding-left: 30px;
+    }
+}
